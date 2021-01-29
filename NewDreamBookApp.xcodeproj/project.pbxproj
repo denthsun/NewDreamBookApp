@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42188142599250900F8C9F8 /* Dream+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42188122599250900F8C9F8 /* Dream+CoreDataClass.swift */; };
+		E42188152599250900F8C9F8 /* Dream+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42188132599250900F8C9F8 /* Dream+CoreDataProperties.swift */; };
+		E42D0F942598ECA500C9F5D1 /* DreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D0F932598ECA500C9F5D1 /* DreamViewController.swift */; };
 		E43982662597914000CA1090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43982652597914000CA1090 /* AppDelegate.swift */; };
 		E43982682597914000CA1090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43982672597914000CA1090 /* SceneDelegate.swift */; };
 		E439826A2597914000CA1090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43982692597914000CA1090 /* ViewController.swift */; };
-		E439826D2597914000CA1090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439826B2597914000CA1090 /* Main.storyboard */; };
 		E43982702597914000CA1090 /* NewDreamBookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E439826E2597914000CA1090 /* NewDreamBookApp.xcdatamodeld */; };
 		E43982722597914100CA1090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43982712597914100CA1090 /* Assets.xcassets */; };
 		E43982752597914100CA1090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43982732597914100CA1090 /* LaunchScreen.storyboard */; };
+		E43982872597924E00CA1090 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43982862597924E00CA1090 /* UIViewExtension.swift */; };
+		E4D187D925979452002E3AA5 /* CollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D187D825979452002E3AA5 /* CollectionViewExtension.swift */; };
+		E4D187DE25979481002E3AA5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D187DC25979481002E3AA5 /* CollectionViewCell.swift */; };
+		E4D187DF25979481002E3AA5 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4D187DD25979481002E3AA5 /* CollectionViewCell.xib */; };
+		E4D187E42597A108002E3AA5 /* DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D187E32597A108002E3AA5 /* DATA.swift */; };
+		E4EF2943259B988D00EB3A4E /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF2942259B988D00EB3A4E /* ItemViewController.swift */; };
+		E4EF2947259BA36700EB3A4E /* DreamViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF2946259BA36700EB3A4E /* DreamViewControllerExtensions.swift */; };
+		E4EF294B259BA44B00EB3A4E /* ItemViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF294A259BA44B00EB3A4E /* ItemViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42188122599250900F8C9F8 /* Dream+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dream+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E42188132599250900F8C9F8 /* Dream+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dream+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E42D0F932598ECA500C9F5D1 /* DreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViewController.swift; sourceTree = "<group>"; };
 		E43982622597914000CA1090 /* NewDreamBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewDreamBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43982652597914000CA1090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E43982672597914000CA1090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E43982692597914000CA1090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E439826C2597914000CA1090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E439826F2597914000CA1090 /* NewDreamBookApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewDreamBookApp.xcdatamodel; sourceTree = "<group>"; };
 		E43982712597914100CA1090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43982742597914100CA1090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43982762597914100CA1090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43982862597924E00CA1090 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E4D187D825979452002E3AA5 /* CollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtension.swift; sourceTree = "<group>"; };
+		E4D187DC25979481002E3AA5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E4D187DD25979481002E3AA5 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		E4D187E32597A108002E3AA5 /* DATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATA.swift; sourceTree = "<group>"; };
+		E4EF2942259B988D00EB3A4E /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		E4EF2946259BA36700EB3A4E /* DreamViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViewControllerExtensions.swift; sourceTree = "<group>"; };
+		E4EF294A259BA44B00EB3A4E /* ItemViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +80,65 @@
 			children = (
 				E43982652597914000CA1090 /* AppDelegate.swift */,
 				E43982672597914000CA1090 /* SceneDelegate.swift */,
-				E43982692597914000CA1090 /* ViewController.swift */,
-				E439826B2597914000CA1090 /* Main.storyboard */,
+				E4524D5E2597E63500FD6900 /* CoreData */,
+				E4D187EA2597B5B2002E3AA5 /* Model & Data */,
+				E439827E259791BF00CA1090 /* VCs */,
+				E439827F259791C700CA1090 /* Extensions */,
+				E4D187DB25979468002E3AA5 /* CVCells */,
 				E43982712597914100CA1090 /* Assets.xcassets */,
 				E43982732597914100CA1090 /* LaunchScreen.storyboard */,
 				E43982762597914100CA1090 /* Info.plist */,
 				E439826E2597914000CA1090 /* NewDreamBookApp.xcdatamodeld */,
 			);
 			path = NewDreamBookApp;
+			sourceTree = "<group>";
+		};
+		E439827E259791BF00CA1090 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E43982692597914000CA1090 /* ViewController.swift */,
+				E42D0F932598ECA500C9F5D1 /* DreamViewController.swift */,
+				E4EF2942259B988D00EB3A4E /* ItemViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		E439827F259791C700CA1090 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E43982862597924E00CA1090 /* UIViewExtension.swift */,
+				E4D187D825979452002E3AA5 /* CollectionViewExtension.swift */,
+				E4EF2946259BA36700EB3A4E /* DreamViewControllerExtensions.swift */,
+				E4EF294A259BA44B00EB3A4E /* ItemViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E4524D5E2597E63500FD6900 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E42188122599250900F8C9F8 /* Dream+CoreDataClass.swift */,
+				E42188132599250900F8C9F8 /* Dream+CoreDataProperties.swift */,
+			);
+			name = CoreData;
+			path = "Model & Data/CoreData";
+			sourceTree = "<group>";
+		};
+		E4D187DB25979468002E3AA5 /* CVCells */ = {
+			isa = PBXGroup;
+			children = (
+				E4D187DC25979481002E3AA5 /* CollectionViewCell.swift */,
+				E4D187DD25979481002E3AA5 /* CollectionViewCell.xib */,
+			);
+			path = CVCells;
+			sourceTree = "<group>";
+		};
+		E4D187EA2597B5B2002E3AA5 /* Model & Data */ = {
+			isa = PBXGroup;
+			children = (
+				E4D187E32597A108002E3AA5 /* DATA.swift */,
+			);
+			path = "Model & Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +200,7 @@
 			files = (
 				E43982752597914100CA1090 /* LaunchScreen.storyboard in Resources */,
 				E43982722597914100CA1090 /* Assets.xcassets in Resources */,
-				E439826D2597914000CA1090 /* Main.storyboard in Resources */,
+				E4D187DF25979481002E3AA5 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +211,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43982872597924E00CA1090 /* UIViewExtension.swift in Sources */,
+				E4EF294B259BA44B00EB3A4E /* ItemViewControllerExtension.swift in Sources */,
+				E4D187DE25979481002E3AA5 /* CollectionViewCell.swift in Sources */,
+				E42D0F942598ECA500C9F5D1 /* DreamViewController.swift in Sources */,
+				E4EF2947259BA36700EB3A4E /* DreamViewControllerExtensions.swift in Sources */,
 				E439826A2597914000CA1090 /* ViewController.swift in Sources */,
 				E43982662597914000CA1090 /* AppDelegate.swift in Sources */,
+				E4EF2943259B988D00EB3A4E /* ItemViewController.swift in Sources */,
+				E42188142599250900F8C9F8 /* Dream+CoreDataClass.swift in Sources */,
 				E43982682597914000CA1090 /* SceneDelegate.swift in Sources */,
 				E43982702597914000CA1090 /* NewDreamBookApp.xcdatamodeld in Sources */,
+				E4D187D925979452002E3AA5 /* CollectionViewExtension.swift in Sources */,
+				E42188152599250900F8C9F8 /* Dream+CoreDataProperties.swift in Sources */,
+				E4D187E42597A108002E3AA5 /* DATA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E439826B2597914000CA1090 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E439826C2597914000CA1090 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E43982732597914100CA1090 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NYS83Y267;
 				INFOPLIST_FILE = NewDreamBookApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NYS83Y267;
 				INFOPLIST_FILE = NewDreamBookApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
