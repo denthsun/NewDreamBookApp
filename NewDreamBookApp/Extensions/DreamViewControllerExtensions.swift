@@ -18,7 +18,7 @@ extension DreamViewController {
         
         topLabel.text = "Dream: "
         topLabel.font = UIFont.boldSystemFont(ofSize: 30)
-        topLabel.textColor = .white
+        topLabel.textColor = .black
         topLabel.textAlignment = .center
         
         mainStack.distribution = .fillEqually
@@ -88,6 +88,10 @@ extension DreamViewController {
         durationStack.distribution = .fillEqually
         durationStack.layoutMargins = UIEdgeInsets(top: 2, left: 5, bottom: 2, right: 5)
         durationStack.isLayoutMarginsRelativeArrangement = true
+        
+        label4duration.text = "Slept Time: "
+        label4duration.font = UIFont.boldSystemFont(ofSize: 20)
+        label4duration.textColor = .white
         
         durationPicker.delegate = self
         durationPicker.dataSource = self
